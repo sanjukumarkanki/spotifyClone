@@ -1,0 +1,417 @@
+/* #FF0052 #6f3dff   background: linear-gradient(136deg, #ff015a 0%, #5b00c4 100%);   background: linear-gradient(136deg, #5b2 0%, #ff6 100%); */
+
+.bg1 {
+  border: solid 2px #fff;
+  border-radius: 10px;
+  background-color: #ff0052;
+}
+.bg2 {
+  background-color: #6f3dff;
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+.bg3 {
+  background: linear-gradient(136deg, #ff015a 0%, #5b00c4 100%);
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+.bg4 {
+  background: linear-gradient(136deg, #5b2 0%, #ff6 100%);
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+.bg5 {
+  background: linear-gradient(136deg, #8f42f0 0%, #f0ae2f 100%);
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+
+.card-bg {
+  background: rgb(236, 236, 236);
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.home-right-side-container1 {
+  flex-grow: 1;
+  height: 85vh;
+  background-color: #000;
+  padding: 30px 10px;
+  overflow-y: scroll;
+}
+@media screen and (min-width: 768px) {
+  .home-right-side-container1 {
+    min-height: 30vh;
+    flex-grow: 1;
+    background-color: #000;
+    height: 85vh;
+    padding: 30px 10px;
+    overflow-y: scroll;
+  }
+}
+
+.card-bg img {
+  width: 100%;
+  margin: none;
+}
+
+.ul-container {
+  background-color: rgb(17, 24, 39, 1);
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EachsongPlaylistCard {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.EachsongPlaylistCard2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.EachsongPlaylistCard:hover {
+  background-color: limegreen;
+  z-index: 1;
+  transform: scale(1.02);
+}
+
+.songDetails {
+  text-align: start;
+  flex-grow: 1;
+  color: #000;
+  margin-left: 15px;
+}
+
+.songDetails h6 {
+  font-family: CircularSp;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (min-width: 567px) {
+  .songDetails h6 {
+    font-size: 2rem;
+  }
+}
+
+.songDetails p {
+  font-family: CircularSp;
+  font-size: 0.87rem;
+  color: gray;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 567px) {
+  .songDetails p {
+    font-size: 1.5rem;
+  }
+}
+
+.play-icon {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  color: #000;
+  margin-left: 20px;
+}
+
+.EachsongPlaylistCar-audio-duration-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 95%;
+}
+@media screen and (min-width: 768px) {
+  .EachsongPlaylistCar-audio-duration-container {
+    width: 20%;
+  }
+}
+
+.floating-button {
+  background-color: #3ded97;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-container {
+  position: absolute;
+  right: 60px;
+  bottom: 150px;
+  z-index: 4;
+}
+.floating-container:hover {
+  transform: scale(1.2);
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  background-color: #3b5998;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+    0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+    0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.button:hover .shine {
+  transform: translate(-70px, 10px);
+}
+
+.fav-icon {
+  height: '20px';
+  width: '20px';
+  color: #fff;
+}
+
+.fav-icon:hover {
+  transform: scale(2);
+}
+
+.empty-playlists-container {
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.empty-playlists-container img {
+  width: 50%;
+  mix-blend-mode: multiply;
+}
+
+.empty-playlists-container h2 {
+  font-family: Popins;
+  font-size: 18px;
+  font-weight: bold;
+}
+.empty-playlists-container p {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .empty-playlists-container h2 {
+    font-size: 32px;
+  }
+  .empty-playlists-container p {
+    font-size: 20px;
+  }
+}
+
+/* #load {
+  position: absolute;
+  width: 600px;
+  height: 36px;
+  left: 50%;
+  top: 40%;
+  margin-left: -300px;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#load div {
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  opacity: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  animation: move 2s linear infinite;
+  -o-animation: move 2s linear infinite;
+  -moz-animation: move 2s linear infinite;
+  -webkit-animation: move 2s linear infinite;
+  transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  color: #35c4f0;
+}
+
+#load div:nth-child(2) {
+  animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+#load div:nth-child(3) {
+  animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+#load div:nth-child(4) {
+  animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+#load div:nth-child(5) {
+  animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+}
+#load div:nth-child(6) {
+  animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+#load div:nth-child(7) {
+  animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  35% {
+    left: 41%;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    left: 59%;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  35% {
+    left: 41%;
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    left: 59%;
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    -moz-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  35% {
+    left: 41%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    left: 59%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes move {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  35% {
+    left: 41%;
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    left: 59%;
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+Drop Down */

@@ -1,0 +1,181 @@
+
+
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    flex-direction: row;
+  }
+}
+
+ 
+
+                  
+
+
+.home-right-side-container {
+  background-color: #000;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 768px) {
+  .home-right-side-container {
+   min-height: 85vh;
+   width: 100%;
+  }
+}
+
+.editors-pick-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+}
+
+.editorsPick-heading{
+    color: limegreen;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Assistant;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+
+.each-song-card {
+  width: 120px;
+  height: 150px;
+  margin: 0.1rem;
+  list-style-type: none;
+  background-color: #fff;
+  border: solid 1px grey;
+  display: flex;
+  padding: 10px 1px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.a{
+    transform: scale(1);
+}
+
+.a:hover{
+    background-color: red;
+}
+
+@media screen and (min-width: 567px) {
+  .each-song-card {
+    width: 166px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.each-song-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.each-song-card p {
+  color: black);
+  text-align: center;
+  font-family: Assistant;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (min-width: 567px) {
+  .each-song-card img {
+    width: 166px;
+    height: 166px;
+  }
+}
+
+.each-playlist-name{
+    color: black;
+text-align: center;
+font-family: Assistant;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 15px;
+}
+
+
+
+
+.skeletontext{
+    background-color: #333;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.skeletontext2{
+        background-color: #333;
+    height: 30px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.skeletonimg{
+    height: 85%;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+.skeleton{
+    background-color: #333;
+    margin-top: 15px;
+}
+
+
+.box-shadow-random{
+    box-shadow: rgba(163, 29, 29, 0.16) 0px 3px 6px, rgba(231, 225, 225, 0.23) 0px 3px 6px;
+}
+
+/* Playlist Section CSS Starts From Here */
+
+.playlist-heading{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Assistant;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.playist-categopry-name{
+    color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Assistant;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+@media screen and (min-width : 768px){
+    .playist-categopry-name{
+        color: #FFF;    
+        font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+}

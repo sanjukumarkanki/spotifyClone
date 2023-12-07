@@ -1,0 +1,166 @@
+.song-description {
+  width: 40%;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 567px) {
+  .song-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.song-text {
+  color: #fff;
+  font-family: CircularSp;
+}
+
+.song-name {
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  font-family: CircularSp;
+  color: limegreen;
+}
+
+@media screen and (min-width: 567px) {
+  .song-name {
+    font-size: 2rem;
+  }
+}
+
+.info-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-button,
+.song-name:hover {
+  color: #fff;
+}
+
+.heart-button-unliked {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  animation-name: unlikebutton;
+  animation-duration: 4s;
+}
+
+@keyframes unlikebutton {
+  0% {
+    color: grey;
+  }
+  25% {
+    color: pink;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+.heart-button-like {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  animation-name: likebutton;
+  animation-duration: 4s;
+  height: 40px;
+  width: 40px;
+}
+
+@keyframes likebutton {
+  0% {
+    color: red;
+  }
+  25% {
+    color: limegreen;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.icon-size {
+  height: 30px;
+  width: 30px;
+}
+
+.recomondation-text {
+  font-family: CircularSp;
+  font-size: 20px;
+  color: limegreen;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 567px) {
+  .recomondation-text {
+    font-size: 32px;
+  }
+}
+
+.song-track-details-description {
+  font-family: CircularSp;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 567px) {
+  .song-track-details-description {
+    font-size: 1.5rem;
+  }
+}
+
+.play-button {
+  background-color: #5bcd4c;
+  color: #000;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.play-button-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}

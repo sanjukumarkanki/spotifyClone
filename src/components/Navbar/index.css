@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040306;
+  height: 15vh;
+  padding: 15px 15px;
+  border-bottom: solid 1px grey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+nav img {
+  cursor: pointer;
+  height: 30px;
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-bar-navigations {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    width: 300px;
+    height: 85vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-right: solid 2px grey;
+  }
+  nav img {
+    width: 75.934px;
+    height: 28.593px;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-bar-navigations {
+    display: block;
+    margin-top: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.nav-bar-navigations button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #9b9b9b;
+  cursor: pointer;
+}
+
+.icon-styles {
+  width: 36px;
+  height: 36px;
+  color: rgb(251, 12, 171);
+}
+
+.nav-bar-navigations button p {
+  color: rgb(251, 12, 171);
+  font-family: Assistant;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,35 @@
+.rhap_time {
+  color: limegreen;
+}
+
+.rhap_progress-indicator {
+  background: limegreen;
+}
+
+.rhap_progress-bar-show-download {
+  background-color: limegreen;
+}
+.rhap_play-pause-button {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.rhap_main-controls-button {
+  color: limegreen;
+}
+
+.rhap_volume-button {
+  color: limegreen;
+}
+
+.rhap_volume-bar {
+  background-color: limegreen;
+}
+
+.rhap_volume-indicator {
+  background: limegreen;
+}
+
+.rhap_progress-filled {
+  background-color: limegreen;
+}

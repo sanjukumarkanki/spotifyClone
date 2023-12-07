@@ -1,0 +1,106 @@
+.unactive-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.unactive-button:hover {
+  background-color: gray;
+}
+
+.active-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: limegreen;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.unactive-button button {
+  display: flex;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-button button {
+  display: flex;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button-icon {
+  height: 1.5rem;
+  width: 2rem;
+}
+
+.unactive-button p {
+  font-family: CircularSp;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.active-button p {
+  font-family: CircularSp;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.bg-container {
+  background-color: #331d2c;
+}
+
+.uesr-details-container {
+  background-color: limegreen;
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.uesr-details-container > h4 {
+  font-family: CircularSp;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.uesr-details-container > p {
+  font-family: CircularSp;
+  font-size: 0.7rem;
+  margin-block: 0px;
+  color: #fff;
+}
+
+.email-text {
+  margin-left: 10px;
+  font-family: CircularSp;
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 8px;
+  margin-right: 10px;
+}

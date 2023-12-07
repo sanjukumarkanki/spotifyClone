@@ -1,0 +1,37 @@
+.field-container {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+
+.icons-container {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.field {
+  border: 0;
+  width: 95%;
+  height: 100%;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 3px;
+  color: black;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  &:focus {
+    outline: none;
+    box-shadow: 0px 9px 20px rgba($tundora, 0.3);
+    + .icons-container {
+      .icon-close {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      .icon-search {
+        opacity: 0;
+        transform: translateX(200%);
+      }
+    }
+  }
+}

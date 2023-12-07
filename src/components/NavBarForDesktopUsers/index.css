@@ -1,0 +1,26 @@
+.desktop-navbar {
+  width: 100%;
+  overflow-y: scroll;
+  min-height: 80vh;
+  padding: 10px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+.logout-button-container {
+  width: 90%;
+}
+.logout-button-container button {
+  width: 100%;
+}
+
+.logo-icon {
+  height: 60px;
+  width: 100%;
+}
